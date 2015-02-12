@@ -1,0 +1,3 @@
+http://generator.lorem-ipsum.info/
+
+https://developers.google.com/maps/web/
