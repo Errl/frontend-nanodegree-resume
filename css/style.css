@@ -159,6 +159,12 @@ img {
   padding: 10px;
 }
 
+.infoWindow {
+    font-size: 24px;
+    font-weight:900;
+    color:brown;
+}
+
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;

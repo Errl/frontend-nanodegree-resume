@@ -62,23 +62,15 @@ var work = {
             "title": "President & Co-Founder",
             "location": "Manhattan, NY",
             "dates": "2013 - Future",
-            "description": "Built a fully responsive web site from scratch with ",
+            "description": "Lorem ipsum dolor sit amet, volumus sententiae eu sit, per omnesque sapientem ex. Stet putant commodo ne sit, usu numquam theophrastus cu. Reque veniam suscipit eum ut. In qui tritani scripserit. Ut aeterno omittam inciderint nec. At pri ipsum saperet. Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola.",
         },
 
         {
-            "employer": "Elite Travel Guru",
-            "title": "Owner/Operator",
-            "location": "Manhattan, NY",
-            "dates": "2010 - 2015",
-            "description": "Built a fully responsive web site from scratch with ",
-        },
-
-        {
-            "employer": "Elite Travel Guru",
-            "title": "Owner/Operator",
-            "location": "Manhattan, NY",
-            "dates": "2010 - 2015",
-            "description": "Built a fully responsive web site from scratch with ",
+            "employer": "Discounted Flight Guru",
+            "title": "President & Founder",
+            "location": "Miami, FL",
+            "dates": "2010 - Future",
+            "description": "Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola.",
         }
     ]
 }
@@ -108,21 +100,14 @@ var projects = {
         {
             "title": "Elite Travel Guru Website",
             "dates": "2012",
-            "description": "Both front end and back end of a fully functional website.",
+            "description": "Autem sensibus inimicus no eam. Dicat possit delicata cu eam, ea autem denique ius, fastidii appellantur interpretaris ne quo. Et graeci tractatos suscipiantur eum, pro ne diam cetero dolorum. Scripta voluptaria scribentur ea cum, vel cu noster voluptua. Ea facete habemus expetendis nec, his posse quaerendum id.Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola. ",
             "images": ["images/197x148.gif", "images/197x148.gif"]
         },
 
         {
             "title": "Elite Travel Guru Website",
             "dates": "2012",
-            "description": "Both front end and back end of a fully functional website.",
-            "images": ["images/197x148.gif", "images/197x148.gif"]
-        },
-
-        {
-            "title": "Elite Travel Guru Website",
-            "dates": "2012",
-            "description": "Both front end and back end of a fully functional website.",
+            "description": "Iudico theophrastus concludaturque mea eu, meis vidit ullamcorper te his, quidam vidisse albucius pro et. In per dico movet postea. His adhuc deleniti tacimates te. Duo ei nihil delenit.",
             "images": ["images/197x148.gif", "images/197x148.gif"]
         }
     ]
@@ -188,8 +173,12 @@ education.display = function () {
         var fromattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[school].degree);
         $(".education-entry:last a").append(fromattedSchoolDegree);
 
-        var fromattedSchoolMajors = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
-        $(".education-entry:last").append(fromattedSchoolMajors);
+        if (education.schools[school].majors.length > 0) {
+            for (major in education.schools[school].majors) {
+                var fromattedSchoolMajors = HTMLschoolMajor.replace("%data%", education.schools[school].majors[major]);
+                $(".education-entry:last").append(fromattedSchoolMajors);
+            }
+        }
     }
 
     for (onlinecourse in education.onlinecourses) {
