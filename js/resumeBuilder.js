@@ -62,15 +62,31 @@ var work = {
             "title": "President & Co-Founder",
             "location": "Manhattan, NY",
             "dates": "2013 - Future",
-            "description": "Lorem ipsum dolor sit amet, volumus sententiae eu sit, per omnesque sapientem ex. Stet putant commodo ne sit, usu numquam theophrastus cu. Reque veniam suscipit eum ut. In qui tritani scripserit. Ut aeterno omittam inciderint nec. At pri ipsum saperet. Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola.",
+            "description": "Travel advisory start up focused on corporate rewards management. After three years of building up Discounted Flight Guru which focused on individual clients, I decided to re-brand the company to include corprorate services. After building the website from the ground up, I continued to maintain and update the website. I established and maintained a google adwords campaign as well as a full socail media campaign. I created an automated lead generation system which I currently oversea. I not only created my own book of corporate clients, I also was responsible for managing the sales team."
         },
 
         {
             "employer": "Discounted Flight Guru",
             "title": "President & Founder",
-            "location": "Miami, FL",
+            "location": "Howell, NJ",
             "dates": "2010 - Future",
-            "description": "Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola.",
+            "description": "An online travel start up, primarily focused on selling international business and first class tickets. I built the website from the ground up and created as well as maintained a google adwords campaign. I was responsible for generating leads, training new sales agents, and managing the sales department. After three succesful years, we decided to rebrand the comapny as Elite Travel Guru, and merged the two companies together"
+        },
+
+        {
+            "employer": "Izzy & Nat's",
+            "title": "Owner & Operator",
+            "location": "Battery Park, NY",
+            "dates": "2008 - 2010",
+            "description": "Managed and facilitated the development and construction of restaurant interior and exterior from the ground up. I created and implemented an ordering process to manage food and beverage costs efficiencies as well as implemented a labor cost infrastructure. I was the the general manager in charge of the full day to day operations, including but not limited to, training and maintaining staff, accounting and billing, quality control and customer satisfaction."
+        },
+
+        {
+            "employer": "Friedman's Deli",
+            "title": "General Manager",
+            "location": "Manhattan, NY",
+            "dates": "2007 - 2008",
+            "description": "After being in the food and hospitality business for over a decade, I was approached by a resteraunt owner to help restructure this one year old resteraunt in order to increase efficiency and the bottom line. I was responsible for all day to day operations of running and maintaining the business. I was able to lower labor costs by 40% and lower food cost by over 30%, which increased the monthly revenue by over 100%"
         }
     ]
 }
@@ -101,13 +117,13 @@ var projects = {
             "title": "Elite Travel Guru Website",
             "dates": "2012",
             "description": "Autem sensibus inimicus no eam. Dicat possit delicata cu eam, ea autem denique ius, fastidii appellantur interpretaris ne quo. Et graeci tractatos suscipiantur eum, pro ne diam cetero dolorum. Scripta voluptaria scribentur ea cum, vel cu noster voluptua. Ea facete habemus expetendis nec, his posse quaerendum id.Harum vulputate ei vix, et tale eripuit eos, amet nusquam vituperatoribus id vix. Dictas accusam in qui, volutpat mediocritatem in vis. Propriae praesent vel no, vis in euismod atomorum argumentum, feugait corrumpit sententiae ad nec. Et his nobis graecis vituperatoribus, mei cu nibh duis scaevola. ",
-            "images": ["images/197x148.gif", "images/197x148.gif"]
+            "images": ["images/etglogo.png", "images/etg.png"]
         },
 
         {
             "title": "Elite Travel Guru Website",
             "dates": "2012",
-            "description": "Iudico theophrastus concludaturque mea eu, meis vidit ullamcorper te his, quidam vidisse albucius pro et. In per dico movet postea. His adhuc deleniti tacimates te. Duo ei nihil delenit.",
+            "description": "I built the website from scratch using asp.net webforms and C#. I created a capture form that binds to a SQL server database. Although I am not an artist, I did all of the image editing myself with Photoshop. Built and maintained an electronic mailing campaign to generate and keep clients.",
             "images": ["images/197x148.gif", "images/197x148.gif"]
         }
     ]
