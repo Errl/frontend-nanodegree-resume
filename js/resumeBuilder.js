@@ -78,7 +78,7 @@ var work = {
             "title": "Owner & Operator",
             "location": "Battery Park, NY",
             "dates": "2008 - 2010",
-            "description": "Managed and facilitated the development and construction of restaurant interior and exterior from the ground up. I created and implemented an ordering process to manage food and beverage costs efficiencies as well as implemented a labor cost infrastructure. I was the the general manager in charge of the full day to day operations, including but not limited to, training and maintaining staff, accounting and billing, quality control and customer satisfaction."
+            "description": "Managed and facilitated the development and construction of restaurant interior and exterior from the ground up. I helped in the facilitation of all business plans and permits as required by NYC regulations. I created and implemented an ordering process to manage food and beverage costs efficiencies as well as implemented a labor cost infrastructure. I was the the general manager in charge of the full day to day operations, including but not limited to, training and maintaining staff, accounting and billing, quality control and customer satisfaction."
         },
 
         {
